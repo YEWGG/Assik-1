@@ -170,4 +170,33 @@ public static double getAverage(int n, int [] array) {
      * @return the power of a number.
 
      */
-}
+    //Task 7
+    public static void printReverse(int n, int [] array) {
+        if (n == 0) {
+            return;
+        }
+        System.out.print(array[n-1]+", ");
+        printReverse(n-1, array);
+    }
+    /*
+
+     * This method prints the elements of array in reverse order.
+
+     * It uses recursion.
+
+     * Time complexity: 0(n), where n is the input number.
+
+     * The recursion algorithm iterates through all elements with indexes from n to 1,
+
+     * resulting in linear time complexity.
+
+     *
+
+     * @param n and array, they are length of array and elements of array respectively.
+
+     * @return the elements of array in reverse order.
+
+     */
+
+    }
+
