@@ -28,5 +28,30 @@ public class Tasks {
      * @return the minimum element from array.
 
      */
+public static double getAverage(int n, int [] array) {
+        double sum = 0;
+        for (int i = 0; i < n; i++) {
+            sum += array[i];
+        }
+        return sum / n;
+    }
+    /*
 
+     * This method finds the average of all elements within array.
+
+     * It uses a for loop.
+
+     * Time complexity: 0(n), where n is the input number.
+
+     * The loop algorithm iterates through all elements with indexes from 0 to n-1,
+
+     * resulting in linear time complexity.
+
+     *
+
+     * @param n and array, they are length of array and elements of array respectively.
+
+     * @return the average of all elements from array.
+
+     */
 }
