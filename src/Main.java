@@ -16,5 +16,12 @@ public class Main {
         double duration2 = (endTime2 - startTime2)/1000000;
         System.out.println("Result: "+result2);
         System.out.println("Duration: "+duration2+" milliseconds");
+        //Task 3
+        double startTime3  = System.nanoTime();
+        String result3=Tasks.isPrime(7);
+        double endTime3  = System.nanoTime();
+        double duration3 = (endTime3 - startTime3)/1000000;
+        System.out.println("Result: "+result3);
+        System.out.println("Duration: "+duration3+" milliseconds");
     }
 }
