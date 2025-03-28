@@ -64,6 +64,13 @@ public class Main {
         double duration9 = (endTime9 - startTime9)/1000000;
         System.out.println("Result: "+result9);
         System.out.println("Duration: "+duration9+" milliseconds");
+        //Task 10
+        double startTime10  = System.nanoTime();
+        int result10=Tasks.getGCD(48, 32);
+        double endTime10  = System.nanoTime();
+        double duration10 = (endTime10 - startTime10)/1000000;
+        System.out.println("Result: "+result10);
+        System.out.println("Duration: "+duration10+" milliseconds");
 
 
 

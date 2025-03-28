@@ -256,5 +256,31 @@ public static double getAverage(int n, int [] array) {
      * @return the binomial coefficient.
 
      */
+    //Task 10
+    public static int getGCD(int a, int b) {
+        if (b == 0) {
+            return a;
+        }
+        return getGCD(b, a % b);
+    }
+    /*
+
+     * This method calculates the greatest common divisor of two numbers.
+
+     * It uses recursion.
+
+     * Time complexity: 0(log(min(a,b))), where a and b are the input numbers.
+
+     * The recursion algorithm iterates through all elements with indexes from log(min(a,b)) to 1,
+
+     * resulting in logarithmic time complexity.
+
+     *
+
+     * @param a and b, they are the input numbers.
+
+     * @return the greatest common divisor of two numbers.
+
+     */
 }
 
