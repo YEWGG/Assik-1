@@ -50,6 +50,13 @@ public class Main {
         double endTime7  = System.nanoTime();
         double duration7 = (endTime7 - startTime7)/1000000;
         System.out.println("\n"+"Duration: "+duration7+" milliseconds");
+        //Task 8
+        double startTime8  = System.nanoTime();
+        String result8=Tasks.isAllDigits("1234d56");
+        double endTime8  = System.nanoTime();
+        double duration8 = (endTime8 - startTime8)/1000000;
+        System.out.println("Result: "+result8);
+        System.out.println("Duration: "+duration8+" milliseconds");
 
 
 

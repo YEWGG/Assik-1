@@ -197,6 +197,39 @@ public static double getAverage(int n, int [] array) {
      * @return the elements of array in reverse order.
 
      */
+    //Task 8
 
+    public static boolean isDigit(char a) {
+        return a >= '0' && a <= '9';
     }
+    public static String isAllDigits(String s) {
+        int n = s.length();
+        for (int i = 0; i < n; i++) {
+            if (!isDigit(s.charAt(i))) {
+                return "NO";
+            }
+        }
+        return "YES";
+    }
+    /*
+
+     * This method checks if all characters in a string are digits.
+
+     * It uses a for loop.
+
+     * Time complexity: 0(n), where n is the length of the string.
+
+     * The loop algorithm iterates through all characters with indexes from 0 to n-1,
+
+     * resulting in linear time complexity.
+
+     *
+
+     * @param s, it is the input string.
+
+     * @return "YES" if all characters are digits, "NO" otherwise.
+
+     */
+
+}
 
