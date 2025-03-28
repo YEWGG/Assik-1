@@ -117,7 +117,7 @@ public static double getAverage(int n, int [] array) {
         if (n == 0) {
             return 0;
         }
-        if (n == 1 || n == 2) {
+        if (n == 1) {
             return 1;
         }
         return fibonacci(n - 1) + fibonacci(n - 2);
@@ -141,4 +141,14 @@ public static double getAverage(int n, int [] array) {
      * @return the nth Fibonacci number.
 
      */
+    //Task 6
+    public static double power(int a, int b) {
+        if (b < 0) {
+            return 1 / power(a, -b);
+        }
+        if (b == 0) {
+            return 1;
+        }
+        return a * power(a, b - 1);
+    }
 }
