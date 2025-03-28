@@ -57,6 +57,13 @@ public class Main {
         double duration8 = (endTime8 - startTime8)/1000000;
         System.out.println("Result: "+result8);
         System.out.println("Duration: "+duration8+" milliseconds");
+        //Task 9
+        double startTime9  = System.nanoTime();
+        int result9=Tasks.getBinomialCoefficient(7,3);
+        double endTime9  = System.nanoTime();
+        double duration9 = (endTime9 - startTime9)/1000000;
+        System.out.println("Result: "+result9);
+        System.out.println("Duration: "+duration9+" milliseconds");
 
 
 

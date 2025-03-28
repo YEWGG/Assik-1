@@ -230,6 +230,31 @@ public static double getAverage(int n, int [] array) {
      * @return "YES" if all characters are digits, "NO" otherwise.
 
      */
+    //Task 9
+    public static int getBinomialCoefficient(int n, int k) {
+        if (k==0 || n==k) {
+            return 1;
+        }
+        return getBinomialCoefficient(n-1, k-1) + getBinomialCoefficient(n-1, k);
+    }
+    /*
 
+     * This method calculates the binomial coefficient.
+
+     * It uses recursion.
+
+     * Time complexity: 0(2^n), where n is the input number.
+
+     * The recursion algorithm iterates through all elements with indexes from n to 1,
+
+     * resulting in exponential time complexity.
+
+     *
+
+     * @param n and k, they are the input numbers.
+
+     * @return the binomial coefficient.
+
+     */
 }
 
