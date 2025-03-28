@@ -151,5 +151,23 @@ public static double getAverage(int n, int [] array) {
         }
         return a * power(a, b - 1);
     }
+    /*
 
+     * This method calculates the power of a number.
+
+     * It uses recursion.
+
+     * Time complexity: 0(b), where b is the input number.
+
+     * The recursion algorithm iterates through all elements with indexes from b to 1,
+
+     * resulting in linear time complexity.
+
+     *
+
+     * @param a and b, they are the base and exponent respectively.
+
+     * @return the power of a number.
+
+     */
 }

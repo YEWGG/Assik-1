@@ -39,7 +39,7 @@ public class Main {
         System.out.println("Duration: "+duration5+" milliseconds");
         //Task 6
         double startTime6  = System.nanoTime();
-        double result6=Tasks.power(2, -3);
+        double result6=Tasks.power(2, -5);
         double endTime6  = System.nanoTime();
         double duration6 = (endTime6 - startTime6)/1000000;
         System.out.println("2^5 :" + result6);
