@@ -112,4 +112,33 @@ public static double getAverage(int n, int [] array) {
      * @return the factorial of the input number.
 
      */
+    //Task 5
+    public static int fibonacci(int n) {
+        if (n == 0) {
+            return 0;
+        }
+        if (n == 1 || n == 2) {
+            return 1;
+        }
+        return fibonacci(n - 1) + fibonacci(n - 2);
+    }
+    /*
+
+     * This method calculates the nth Fibonacci number.
+
+     * It uses recursion.
+
+     * Time complexity: 0(2^n), where n is the input number.
+
+     * The recursion algorithm iterates through all elements with indexes from n to 1,
+
+     * resulting in exponential time complexity.
+
+     *
+
+     * @param n, it is the input number.
+
+     * @return the nth Fibonacci number.
+
+     */
 }

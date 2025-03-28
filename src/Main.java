@@ -30,6 +30,13 @@ public class Main {
         double duration4 = (endTime4 - startTime4)/1000000;
         System.out.println("Factorial of 5 :" + result4);
         System.out.println("Duration: "+duration4+" milliseconds");
+        //Task 5
+        double startTime5  = System.nanoTime();
+        int result5=Tasks.fibonacci(17);
+        double endTime5  = System.nanoTime();
+        double duration5 = (endTime5 - startTime5)/1000000;
+        System.out.println("Fibonacci of 17 :" + result5);
+        System.out.println("Duration: "+duration5+" milliseconds");
 
 
     }
