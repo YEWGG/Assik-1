@@ -151,4 +151,5 @@ public static double getAverage(int n, int [] array) {
         }
         return a * power(a, b - 1);
     }
+
 }
