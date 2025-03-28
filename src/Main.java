@@ -23,5 +23,14 @@ public class Main {
         double duration3 = (endTime3 - startTime3)/1000000;
         System.out.println("Result: "+result3);
         System.out.println("Duration: "+duration3+" milliseconds");
+        //Task 4
+        double startTime4  = System.nanoTime();
+        int result4=Tasks.factorial(5);
+        double endTime4  = System.nanoTime();
+        double duration4 = (endTime4 - startTime4)/1000000;
+        System.out.println("Factorial of 5 :" + result4);
+        System.out.println("Duration: "+duration4+" milliseconds");
+
+
     }
 }

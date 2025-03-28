@@ -86,4 +86,30 @@ public static double getAverage(int n, int [] array) {
      * @return "PRIME" if the number is prime, "COMPOSITE" otherwise.
 
      */
+    //Task 4
+    public static int factorial(int n) {
+        if (n == 0 || n == 1) {
+            return 1;
+        }
+        return n * factorial(n - 1);
+    }
+    /*
+
+     * This method calculates the factorial of a given number.
+
+     * It uses recursion.
+
+     * Time complexity: 0(n), where n is the input number.
+
+     * The recursion algorithm iterates through all elements with indexes from n to 1,
+
+     * resulting in linear time complexity.
+
+     *
+
+     * @param n, it is the input number.
+
+     * @return the factorial of the input number.
+
+     */
 }
