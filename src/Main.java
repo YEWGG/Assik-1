@@ -2,9 +2,9 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        //Task 1
+        //Task 2
         double startTime  = System.nanoTime();
-        int result = Tasks.getMin(5, new int[]{1, 2, 3, 4, 5});
+        double result = Tasks.getAverage(4, new int[]{3,2,4,1});
         double endTime  = System.nanoTime();
         double duration = (endTime - startTime)/1000000;
         System.out.println("Result: "+result);
