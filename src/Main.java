@@ -2,9 +2,9 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        //Task 5
+        //Task 6
         double startTime  = System.nanoTime();
-        int result = Tasks.fibonacci(17);
+        double result = Tasks.power(2, 10);
         double endTime  = System.nanoTime();
         double duration = (endTime - startTime)/1000000;
         System.out.println("Result: "+result);
