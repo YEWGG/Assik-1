@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Tasks {
     //Task 1
     public static int getMin(int n, int [] array) {
@@ -171,16 +173,18 @@ public static double getAverage(int n, int [] array) {
 
      */
     //Task 7
-    public static void printReverse(int n, int [] array) {
+    public static void printReverse(int n) {
         if (n == 0) {
             return;
         }
-        System.out.print(array[n-1]+", ");
-        printReverse(n-1, array);
+        Scanner scanner = new Scanner(System.in);
+        int a=scanner.nextInt();
+        printReverse(n - 1);
+        System.out.print(a + ", ");
     }
     /*
 
-     * This method prints the elements of array in reverse order.
+     * This method prints the input numbers in reverse order.
 
      * It uses recursion.
 
@@ -192,9 +196,9 @@ public static double getAverage(int n, int [] array) {
 
      *
 
-     * @param n and array, they are length of array and elements of array respectively.
+     * @param n, it is the input number.
 
-     * @return the elements of array in reverse order.
+     * @return the input numbers in reverse order.
 
      */
     //Task 8

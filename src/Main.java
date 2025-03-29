@@ -46,7 +46,7 @@ public class Main {
         System.out.println("Duration: "+duration6+" milliseconds");
         //Task 7
         double startTime7  = System.nanoTime();
-        Tasks.printReverse(5, new int[]{1, 2, 3, 4, 5});
+        Tasks.printReverse(5);
         double endTime7  = System.nanoTime();
         double duration7 = (endTime7 - startTime7)/1000000;
         System.out.println("\n"+"Duration: "+duration7+" milliseconds");
